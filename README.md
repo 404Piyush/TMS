@@ -8,7 +8,7 @@ This project is a Discord bot that provides a temporary email service using the 
 - **Refresh Inbox**: Use the "🔄️ Refresh Inbox" button to check if any emails have been received.
 - **Copy Email**: Use the "©️ Copy Mail" button to copy the email address to the clipboard.
 - **Get New Mail**: Use the "🆕 Get New Mail" button to generate a new temporary email address.
-- **View Domains**: Use the `/domains` command to retrieve a list of domains used by the temporary email service.
+- **View Domains**: Use the `/domains` command to retrieve a list of domains the temporary email service uses.
 
 ## How It Works
 
@@ -22,8 +22,8 @@ This project is a Discord bot that provides a temporary email service using the 
 1. **Clone the Repository**:
 
     ```sh
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
+    git clone https://github.com/404Piyush/TMS.git
+    cd TMS
     ```
 
 2. **Install Dependencies**:
@@ -38,7 +38,7 @@ This project is a Discord bot that provides a temporary email service using the 
 
    You can add these dependencies to your `pom.xml` if you're using Maven:
 
-    ```xml
+    ```XML
     <dependencies>
         <dependency>
             <groupId>net.dv8tion</groupId>
@@ -75,7 +75,7 @@ This project is a Discord bot that provides a temporary email service using the 
 
 3. **Configure the Bot Token**:
 
-   Replace `"ENTER YOUR DISCORD BOT TOKEN"` in `Main.java` with your actual Discord bot token.
+   Replace `"ENTER YOUR DISCORD BOT TOKEN"` in `Main.java` with your Discord bot token.
 
 4. **Run the Bot**:
 
@@ -86,7 +86,7 @@ This project is a Discord bot that provides a temporary email service using the 
 ## Usage
 
 - **/get-mail**: Generate a temporary email address.
-- **/domains**: Get a list of domains used by the temporary email service.
+- **/domains**: Get a list of domains the temporary email service uses.
 - **Buttons**:
   - **🔄️ Refresh Inbox**: Check if there are new emails.
   - **©️ Copy Mail**: Copy the current email address to the clipboard.
