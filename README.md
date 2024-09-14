@@ -1,6 +1,7 @@
 # Disposable Email Service
 
 This project is a Discord bot that provides a temporary email service using the [temp-mail.io](https://temp-mail.io) API. It allows users to get a temporary email address, check for received emails, and view the email content and attachments if present.
+I made this program in 2022 (I was 16) when I was new to Java so I didn't use full potential of java hence the code is easy to read and understand.
 
 ## Features
 
